@@ -35,11 +35,16 @@ The face is detected using a shape detector which is a pre-installed file:
 
 The final output has the following information for the series of frames taken as input.
 -**Eye Aspect Ratio:** The Eye Aspect Ratio is a constant value when the eye is open, but rapidly falls to 0 when the eye is closed. It is an estimate of the eye-opening state.
+
 -**Mouth Aspect Ratio:** The Mouth Aspect Ratio is a constant value when the mouth is open, but rapidly falls to 0 when the mouth is closed. It is an estimate of the mouth-opening state.
+
 -**Blink count:** Counts the total number of times the eye blinks every second, typically involving a combination of:
   -Eye localization.
   -Thresholding to find the whites of the eyes.
   -Determining if the “white” region of the eyes disappears for a period of time (indicating a blink).
+  
 -**Yawn Count:** Counts the total number of times the yawning takes place every second
+
 -**Shows the crucial facial points:** We can apply facial landmark detection to localize important regions of the face, including eyes, eyebrows, nose, ears, and mouth. Facial landmarks can be used to align facial images to mean face shape so that after alignment the location of facial landmarks in all images is approximately the same.
+
 -**Convex Hull Face**
