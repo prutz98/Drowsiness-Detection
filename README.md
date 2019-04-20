@@ -1,5 +1,5 @@
-# Drowsiness-Detection
-Description
+## Drowsiness-Detection
+# Description
 Driver fatigue is a significant factor in a large number of road accidents that mainly happen due to human error. The development of technologies for detecting or preventing drowsiness of the drivers at the earliest stage itself is a major challenge in the field of accident avoidance systems.
 This is a project based on the implementation of Artificial Intelligence and OpenCV concepts to detect drowsiness of a person and sound an alarm once detected.
 
@@ -17,16 +17,24 @@ The data File can be downloaded by [Clicking Here](https://drive.google.com/file
 # Dependencies
 **Libraries** such as: 
 -cv2
+
 -dlib
+
 -cmake
+
 -scikit learn
+
 -imutils
+
 -scipy
+
 should be installed and imported.
 
 # Procedure
 -A model is built for drowsiness detection of a driver by real-time Eye-Tracking in videos using Haar Cascades and CamShift algorithm.
+
 -Used the significant features for each video frame extracted by the algorithm to stitch as a sequence of feature vectors for consecutive frames.
+
 -Detect Face and Eyes in a Single Image:
 The face is detected using a shape detector which is a pre-installed file:
   	face_landmarks.dat_2
@@ -36,6 +44,7 @@ The face is detected using a shape detector which is a pre-installed file:
 -To run the code, type python Drowsiness_Detection.py in the command prompt or F5 when using spyder.
 
 The final output has the following information for the series of frames taken as input.
+
 -**Eye Aspect Ratio:** The Eye Aspect Ratio is a constant value when the eye is open, but rapidly falls to 0 when the eye is closed. It is an estimate of the eye-opening state.
 
 -**Mouth Aspect Ratio:** The Mouth Aspect Ratio is a constant value when the mouth is open, but rapidly falls to 0 when the mouth is closed. It is an estimate of the mouth-opening state.
