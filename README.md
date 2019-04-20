@@ -12,6 +12,8 @@ The code is compiled in Python (version 2.7 or higher will work, preferably vers
 Anaconda Platform is used, from which spyder v3.6 was used.
 Visual Studio (C++ distribution version also needs to be installed to set up the environment)
 
+The data File can be downloaded by [Clicking hHere] (https://drive.google.com/file/d/1BcQTuIKpRG5IfV6QnDEsMHAYzsEt3bBk/view)
+
 # Dependencies
 **Libraries** such as: 
 -cv2
